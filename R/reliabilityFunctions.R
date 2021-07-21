@@ -17,13 +17,14 @@
 # frame data with FrameExport.rb will ensure they are exported with a specific frame
 # rate.
 
-library(tidyverse)
-library(stringr)
+
 
 #### Flexible reliability function #############################################
 
 check_reliability <- function(RA1 = "RA1", RA2 = "RA2", child_id = "PTB42L") {
 
+  library(tidyverse)
+  library(stringr)
   # Set working directory to the coder's files
   setwd("/Volumes/General/Backup/CodingProjects/Smiles_and_Masks_LookitStudy/VideosFinishedCoding/")
   # Find the RA's folder
