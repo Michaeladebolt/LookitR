@@ -8,5 +8,5 @@ check_reliability()
 Test.
 }
 \examples{
-check_reliability()
+
 }
