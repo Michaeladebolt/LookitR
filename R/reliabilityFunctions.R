@@ -21,12 +21,13 @@
 
 #### Flexible reliability function #############################################
 
-check_reliability <- function(RA1 = "RA1", RA2 = "RA2", child_id = "PTB42L") {
+check_reliability <- function(project = "Smiles_and_Masks_LookitStudy", RA1 = "RA1", RA2 = "RA2", child_id = "PTB42L") {
 
   library(tidyverse)
   library(stringr)
   # Set working directory to the coder's files
-  setwd("/Volumes/General/Backup/CodingProjects/Smiles_and_Masks_LookitStudy/VideosFinishedCoding/")
+  setwd(paste0("/Volumes/General/Backup/CodingProjects/", project, "/VideosFinishedCoding/"))
+
   # Find the RA's folder
   RA1_files <- list.files(pattern = RA1)
   RA2_files <- list.files(pattern = RA2)
