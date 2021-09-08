@@ -18,7 +18,6 @@
 # rate.
 
 
-
 #### Flexible reliability function #############################################
 
 check_reliability <- function(project = "Smiles_and_Masks_LookitStudy", RA1 = "RA1", RA2 = "RA2", child_id = "PTB42L") {
